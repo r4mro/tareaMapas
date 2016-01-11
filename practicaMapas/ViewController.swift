@@ -26,20 +26,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         manejador.requestWhenInUseAuthorization()
         manejador.distanceFilter = filtro
         
-//        var punto = CLLocationCoordinate2D()
-//        punto.latitude = manejador.location!.coordinate.latitude
-//        punto.longitude = manejador.location!.coordinate.longitude
-//        
-//        let pin = MKPointAnnotation()
-//        pin.title = "Inicio de la trayectoria"
-//        pin.subtitle = "0 metros"
-//        pin.coordinate = punto
-//        mapa.addAnnotation(pin)
-//        
-//        let regionRadius: CLLocationDistance = 1000
-//        let coordinateRegion = MKCoordinateRegionMakeWithDistance(manejador.location!.coordinate, regionRadius, regionRadius)
-//        mapa.setRegion(coordinateRegion, animated: true)
-        
     }
 
     override func didReceiveMemoryWarning() {
